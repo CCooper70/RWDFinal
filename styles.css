@@ -32,11 +32,24 @@ h1{
 .heading{
     font-family: 'PT Serif', serif;
 }
+h2{
+    margin-left: 100px;
+    font-size: 30px;
+}
 p{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 2%;
     text-indent: 2%;
 }
+   .fa-sharp {
+    color: black;
+    font-size: 14px;
+   }
+  .fa-sharp:hover{
+    color: blue;
+  }
+ 
+
 main{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -53,13 +66,7 @@ main{
     display: flex;
     margin-right: 2rem;
     }
-   .fa-sharp {
-    color: black;
-    font-size: 15px;
-   }
-  .fa-sharp:hover{
-    color: blue;
-  }
+
 
 nav li{
     height:30px;
