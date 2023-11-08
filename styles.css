@@ -27,23 +27,26 @@ body{
 h1{
     text-align: center;
     font-family: 'Noto Serif', serif;
-    color:rgb(48, 35, 19);
+    color:rgb(18, 12, 5);
 }
 .heading{
     font-family: 'PT Serif', serif;
 }
 h2{
-    margin-left: 100px;
+    text-align: center;
     font-size: 30px;
+
 }
 p{
     font-size: 25px;
     margin-left: 2%;
     text-indent: 2%;
+    padding-right: 10%;
 }
    .fa-sharp {
     color: black;
     font-size: 14px;
+    
    }
   .fa-sharp:hover{
     color: blue;
@@ -73,13 +76,11 @@ nav li{
     width: 200px;
     background-color: whitesmoke;
     border: 2px solid rgb(48, 35, 19);
-    border-radius: 3%;
-    padding-top: 10px;
+    border-radius: 50%;
+    padding-top: 18px;
     text-align: center;
-    margin: 1px;
+    margin: 5px;
     list-style-type: none;
- 
-   
 }
 
 nav li:hover{
@@ -87,7 +88,7 @@ nav li:hover{
     color: white;
     font-size: 150%;
     font-weight:300px;
-    background-color: rgb(34, 34, 97);
+    background-color: rgb(150, 240, 161);
    
 }
 a{
@@ -96,21 +97,28 @@ a{
 }
 a:hover{
     color: red;
-    font-size:25px;
+    font-size:20px;
     text-decoration: none;
 }
 
 footer{
     text-align: center;
     color: rgb(100, 22, 22);
-    font-size: 18px;
+    font-size: 15px;
     font-family: fantasy;    
+    margin-bottom: 50px;
     
 }
 #list{
-    font-size: 15px
+    font-size: 15px;
+    color: rgb(100, 22, 22)
 }
-h4{
-    font-size: 13px;
+h3{
+    font-size: 20px;
 }
-
+ol{
+   font-size: 15px;
+}
+#courses{
+    font-size: 28px;
+}
